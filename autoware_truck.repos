@@ -104,6 +104,23 @@ repositories:
     type: git
     url: git@github.com:tier4/nebula.git
     version: main
+  # Camera driver
+  sensor_component/external/camera_driver/gscam:
+    type: git
+    url: git@github.com:IUTSmartMining/gscam.git
+    version: autoware
+  sensor_component/external/camera_driver/image_common:
+    type: git
+    url: git@github.com:ros-perception/image_common.git
+    version: humble
+  sensor_component/external/camera_driver/image_pipeline:
+    type: git
+    url: git@github.com:ros-perception/image_pipeline.git
+    version: humble
+  sensor_component/external/camera_driver/vision_opencv:
+    type: git
+    url: git@github.com:ros-perception/vision_opencv.git
+    version: humble
   # Fork of transport_drivers that enables reduction of copy operations
   sensor_component/transport_drivers:
     type: git
